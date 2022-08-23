@@ -1,8 +1,8 @@
-*Expert z bufetu
+#Expert z bufetu
 
 Vypracovanie zadania od @Daniel Hládek
 
-**Zadanie úlohy
+##Zadanie úlohy
 
 Vašou úlohou bude naprogramovať chatbota, ktorý pomôže budúcim zamestnancom bufetu pri rozlišovaní druhov tovaru pomocou série otázok. Báza znalostí sa skladá z otázok typu áno a nie a odpovedí.
 
@@ -41,7 +41,7 @@ Je to ovocie alebo zelenina (a/n) ?
 Koniec
 ```
 
-**Opis programu
+##Opis programu
 Program na ukladanie údajov využíva štruktúru binárny strom. Zo vstupu vytvorí novú štruktúru, pričom v uzloch sú otázky a v listoch odpovede. Počet listov značí, koľko pozná ovocia a zeleniny.
-***Spustenie znalostného programu
+###Spustenie znalostného programu
 Pri zadaní odpovede sa strom prechádza hlbšie. Ide smerom doľava ak je odpoveď áno a doprava ak je odpoveď nie. Ak dorazí na list stromu tak vypíše odpoveď.
